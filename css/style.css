@@ -1,0 +1,232 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: #202123;
+}
+header .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.h2header{
+    font-family: 'Phudu', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+header .header-left nav {
+    margin-left: 50px;
+}
+header .header-left nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    color: #cfd9e0;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.2s;
+    text-decoration: none;
+    font-family: 'Phudu', cursive;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    color: #fff;
+}
+header .header-right .hamburger {
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+header .header-right .hamburger div {
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
+    background: #fff;
+}
+
+/* MAIN */
+
+.boxMain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: #20212342;
+}
+
+
+.boxMain .fondo-main{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    
+}
+
+.h1-main{
+    
+    text-align: center;
+    font-size: 4rem;
+    color: #17181a;
+    font-family: 'Phudu', cursive;
+}
+
+.p-main{
+    font-family: 'Phudu', cursive;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 6rem;
+    color: #181818;
+}
+
+.a-arrow{
+    align-self: center;
+}
+
+.bi-caret-down-fill{
+    color: #202123;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.bi-caret-down-fill:hover{
+    color: #353535;
+    transition: .4s;
+}
+
+
+/* ROPA */
+
+.boxRopa{
+    background-color: #20212331;
+    font-family: 'Phudu', cursive;
+    
+    padding: 2rem 4rem;
+}
+
+.h2Ropa{
+    padding: 2rem 0;
+    text-align: center;
+    /* font-family: 'Phudu', cursive; */
+}
+
+/* .cajitaropa{
+    width: 16rem;
+    height: 30rem;
+    
+} */
+
+.cajitaropa{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.flex-prendas{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px 0 #17181a;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    gap: .4rem;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-bottom: .6rem;
+    
+}
+
+.flex-prendas p{
+    font-size: 1.1rem;
+}
+
+.prendas{
+    width: 16.4rem;
+    height: 24rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: 0 1px 0 0 black;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1000px) {
+    header {
+        padding: 0 20px;
+    }
+    header .header-right .hamburger {
+        display: block;
+        padding: 2rem;
+        
+    }
+    header .header-left nav {
+        margin: 0;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        background-color: #202123;
+        padding: 30px;
+        transition: .5s;
+        text-align: center;
+        z-index: 1;
+        
+    }
+    header .header-left nav.active {
+        top: 70px;
+    }
+    header .header-left nav ul {
+        display: block;
+        list-style: none;
+    }
+
+    /* MAIN */
+
+    .boxMain .h1-main{
+        font-size: 2.6rem;
+    }
+
+    .boxMain .p-main{
+        font-size: 1.2rem;
+    }
+
+    .bi-caret-down-fill{
+        color: #202123;
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    .cajitaropa{
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
