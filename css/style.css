@@ -123,11 +123,15 @@ header .header-right .hamburger div {
 
 /* ROPA */
 
+
+
 .boxRopa{
-    background-color: #20212331;
+    /* background-color: #050505e1; */
+    background: #f1f1f1;
+    /* background: #888; */
     font-family: 'Phudu', cursive;
+    padding: 4rem 4rem;
     
-    padding: 2rem 4rem;
 }
 
 .h2Ropa{
@@ -136,12 +140,6 @@ header .header-right .hamburger div {
     /* font-family: 'Phudu', cursive; */
 }
 
-/* .cajitaropa{
-    width: 16rem;
-    height: 30rem;
-    
-} */
-
 .cajitaropa{
     display: flex;
     gap: 2rem;
@@ -149,19 +147,23 @@ header .header-right .hamburger div {
 }
 
 .flex-prendas{
-    /* display: flex;
-    flex-direction: column; */
-    background-color: #e0e0e0;
-    box-shadow: 0 0 20px 0 #17181a;
+
+    background-color: #ffffffab;
+    box-shadow: 0 0 10px 0 #0000001c;
     display: flex;
     flex-direction: column;
-    max-width: max-content;
+    height: max-content;
     gap: .4rem;
     text-align: center;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
     padding-bottom: .6rem;
     
+}
+
+.tituloprenda{
+    font-weight: 500;
+    padding: .4rem;
 }
 
 .flex-prendas p{
@@ -173,8 +175,46 @@ header .header-right .hamburger div {
     height: 24rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    box-shadow: 0 1px 0 0 black;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.233);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIVE */
 
@@ -227,6 +267,13 @@ header .header-right .hamburger div {
 
     .cajitaropa{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 3rem;
+    }
+
+    .prendas{
+        width: 14rem;
+    height: 18rem;
     }
 }
