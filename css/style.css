@@ -180,6 +180,7 @@ header .header-right .hamburger div {
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.233);
 } */
 
+
 .boxropa{
     /* background-color: rgb(255, 255, 255); */
     padding: 4rem 4rem;
@@ -232,17 +233,41 @@ header .header-right .hamburger div {
     color: #353535;
 }
 
-.boxropablack{
+/* .boxropablack{
     background-color: #202123;
-}
+} */
 
-.boxropablack .imgprenda{
+.imgprenda{
     width: 16.8rem;
     height: 24rem;
 }
 
+/* --------- */
+#black{
+    background-color: #202123;
+}
+/* ------------ */
 
 
+#white{
+    background-color: #3535357a;
+}
+
+#textwhite{
+    color: #eeeeee;
+}
+
+#preciowhite{
+    color: #fafafa;
+}
+
+#spanwhite{
+    color: #fff;
+}
+
+#cuotaswhite{
+    color: #fafafac7;
+}
 
 
 
@@ -308,15 +333,11 @@ header .header-right .hamburger div {
         font-size: 3.2rem;
     }
 
-    .cajitaropa{
+    .boxropa{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 3rem;
     }
 
-    .prendas{
-        width: 14rem;
-    height: 18rem;
-    }
 }
