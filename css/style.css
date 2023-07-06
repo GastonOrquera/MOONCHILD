@@ -69,6 +69,8 @@ header .header-right .hamburger div {
 
 /* MAIN */
 
+
+
 .boxMain{
     width: 100%;
     height: 100vh;
@@ -125,10 +127,10 @@ header .header-right .hamburger div {
 
 
 
-.boxRopa{
-    /* background-color: #050505e1; */
+/* .boxRopa{
+    background-color: #050505e1;
     background: #f1f1f1;
-    /* background: #888; */
+    background: #888;
     font-family: 'Phudu', cursive;
     padding: 4rem 4rem;
     
@@ -137,66 +139,107 @@ header .header-right .hamburger div {
 .h2Ropa{
     padding: 2rem 0;
     text-align: center;
-    /* font-family: 'Phudu', cursive; */
-}
+    font-family: 'Phudu', cursive;
+} */
 
-.cajitaropa{
+/* .cajitaropa{
     display: flex;
     gap: 2rem;
     
-}
+} */
 
-.flex-prendas{
+/* .flex-prendas{
 
     background-color: #ffffffab;
     box-shadow: 0 0 10px 0 #0000001c;
-    display: flex;
-    flex-direction: column;
-    height: max-content;
+     display: flex;
+    flex-direction: column; 
+    height: max-content; 
     gap: .4rem;
     text-align: center;
     border-top-left-radius: .6rem;
     border-top-right-radius: .6rem;
     padding-bottom: .6rem;
     
-}
+} */
 
-.tituloprenda{
+/* .boxropa .tituloprenda{
     font-weight: 500;
     padding: .4rem;
 }
 
-.flex-prendas p{
+.boxropa .flex-prendas p{
     font-size: 1.1rem;
 }
 
-.prendas{
+.boxropa .prendas{
     width: 16.4rem;
     height: 24rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.233);
+} */
+
+.boxropa{
+    /* background-color: rgb(255, 255, 255); */
+    padding: 4rem 4rem;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 
+.boxropa .cardprenda{
+    max-width: max-content;
+    background-color: #ffffffab;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: .8rem;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.534); */
+    box-shadow: 0 0 2rem #20212341;
+}
 
+.boxropa .cardprenda .imgprenda{
+    width: 16.8rem;
+    height: 24rem;
+}
 
+.textoscard1, .textoscard2, .textoscard3{
+    font-family: 'Phudu', cursive;
+}
 
+.textoscard1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
 
+.textoscard2{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
 
+.textoscard3{
+    padding: .4rem;
+    font-size: .9rem;
+}
 
+.spancard{
+    font-size: 1.2rem;
+    color: #353535;
+}
 
+.boxropablack{
+    background-color: #202123;
+}
 
-
-
-
-
-
-
-
-
-
-
+.boxropablack .imgprenda{
+    width: 16.8rem;
+    height: 24rem;
+}
 
 
 
